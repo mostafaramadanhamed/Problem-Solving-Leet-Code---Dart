@@ -6,6 +6,11 @@ void main() {
   print(solution.romanToInt('LVIII')); // Output: 58
   print(solution.romanToInt('MCMXCIV')); // Output: 1994
 }
+// LeetCode Problem 13: Roman to Integer
+// https://leetcode.com/problems/roman-to-integer/
+// Given a roman numeral, convert it to an integer.
+
+//my solution
 class Solution {
   final Map<String, int> romanNums = {
     'I': 1,
